@@ -25,3 +25,7 @@ function lengthOfLongestSubstring(s: string): number {
   return maxLen
 };
 // @lc code=end
+
+it('示例1', () => {
+  expect(lengthOfLongestSubstring('abcabcbb')).toBe(3)
+})

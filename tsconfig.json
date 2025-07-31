@@ -3,6 +3,7 @@
     "target": "esnext",
     "module": "esnext",
 
+    "types": ["vitest/globals"],
     /* Type Checking */
     "strict": true /* Enable all strict type-checking options. */,
     "esModuleInterop": true,
