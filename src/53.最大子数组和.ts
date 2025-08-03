@@ -18,7 +18,6 @@ function maxSubArray(nums: number[]): number {
       res = dp[i]
     }
   }
-  console.log(dp)
 
   return res
 };
