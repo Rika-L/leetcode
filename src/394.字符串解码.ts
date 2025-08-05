@@ -21,7 +21,6 @@ function decodeString(s: string): string {
       num = 0
     }
     else if (letter === ']') {
-      console.log(strStack)
       const repeatTimes = numStack.pop() || 0 // 拷贝次数
       result = strStack.pop() + result.repeat(repeatTimes)
     }
