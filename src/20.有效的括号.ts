@@ -29,9 +29,9 @@ function isValid(s: string): boolean {
 // @lc code=end
 
 it('20', () => {
-  // expect(isValid('([)]')).toBe(false)
-  // expect(isValid('()')).toBe(true)
-  // expect(isValid('()[]{}')).toBe(true)
-  // expect(isValid('(]')).toBe(false)
+  expect(isValid('([)]')).toBe(false)
+  expect(isValid('()')).toBe(true)
+  expect(isValid('()[]{}')).toBe(true)
+  expect(isValid('(]')).toBe(false)
   expect(isValid('[')).toBe(false)
 })
