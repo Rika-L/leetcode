@@ -19,3 +19,10 @@ function isPalindrome(x: number): boolean {
   return true
 };
 // @lc code=end
+
+it('9', () => {
+  expect(isPalindrome(121)).toBe(true)
+  expect(isPalindrome(-121)).toBe(false)
+  expect(isPalindrome(10)).toBe(false)
+  expect(isPalindrome(12321)).toBe(true)
+})
